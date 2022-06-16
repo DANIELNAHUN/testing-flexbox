@@ -6,33 +6,35 @@
       dark
       clipped-left
     >
+    <v-spacer></v-spacer>
     <h3 class="text-center">MI PRIMER PROYECTO</h3>
-
+    <v-spacer></v-spacer>
       <v-btn
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
         target="_blank"
         text
       >
         <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
+        <v-icon>mdi-umbrella-closed</v-icon>
       </v-btn>
     </v-app-bar>
 
     <v-main>
-      <TodoList/>
+      <ComponentCart/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld';
-import TodoList from './components/TodoList.vue';
+//import TodoList from './components/TodoList.vue';
+import ComponentCart from './components/ComponentCart.vue';
 
 export default {
   name: 'App',
 
   components: {
-    TodoList,
+    ComponentCart,
   },
 
   data: () => ({
