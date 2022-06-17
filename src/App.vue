@@ -20,7 +20,9 @@
     </v-app-bar>
 
     <v-main>
+      <v-spacer></v-spacer>
       <ComponentCart/>
+      <v-spacer></v-spacer>
     </v-main>
   </v-app>
 </template>

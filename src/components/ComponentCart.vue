@@ -1,10 +1,10 @@
 <template>
-    <div class="flex-sm-row">
-        <v-card
-        class="justify-md-center"
-        max-height="100%"
-        max-width="500"
-        >
+    <v-container>
+        <v-row justify="space-around">
+            <v-card
+            class="justify-md-center"
+            max-width="500"
+            >
             <v-img
             max-height="200"
             max-width="100%"
@@ -12,16 +12,13 @@
             ></v-img>
             <v-toolbar-title>Order Summary</v-toolbar-title>
             <h3>You can now listen to millions of song, audiobooks, and podcasts on any
-                device anywhere you like!
-            </h3>
-            <v-btn>
-            Proceed to Payment
-            </v-btn>
-            <v-btn>
-            Cancel Order
-            </v-btn>
-        </v-card>            
-    </div>
+                device anywhere you like!</h3>
+            
+            <v-btn>Proceed to Payment</v-btn>
+            <v-btn>Cancel Order</v-btn>
+            </v-card>
+        </v-row>
+    </v-container>
 </template>
 <script>
     export default {
