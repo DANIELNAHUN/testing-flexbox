@@ -47,7 +47,7 @@
         active-class="pink--text"
       >
         <template v-for="(item, index) in todoList">
-          <v-list-item :key="item">
+          <v-list-item :key="index">
             <template v-slot:default="{ active }">
               <v-list-item-content>
                 <v-list-item-title v-text="item.text"></v-list-item-title>
