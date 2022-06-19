@@ -2,7 +2,7 @@
     <v-container>
         <v-row justify="space-around">
             <v-card
-            class="justify-md-cener"
+            class="justify-md-center"
             max-width="320"
             >
             <v-img
@@ -16,13 +16,19 @@
                 device anywhere you like!</div>
                 <div class="d-flex justify-space-between">
                     <div class="d-flex align-center">
-                        <v-icon>mdi-home</v-icon>
+                        <v-btn
+                        class="ma-2"
+                        icon
+                        text
+                        >
+                            <v-icon >mdi-music</v-icon> 
+                        </v-btn>               
                         <div>
-                            <div>Anual Plan</div>
+                            <div class="font-weight-bold">Anual Plan</div>
                             <div>$59.99/year</div>
                         </div>
                     </div>
-                    <div><v-btn color="grey" text class="text-none">Change</v-btn></div> 
+                    <div><v-btn color="primary" text class="text-none text-decoration-underline font-weight-bold">Change</v-btn></div> 
                 </div>
             </v-card-text>
             <v-card-actions>

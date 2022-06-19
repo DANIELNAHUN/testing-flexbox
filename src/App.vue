@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="background : #0A0C1B">
     <v-app-bar
       app
       color="purple"
@@ -20,9 +20,11 @@
     </v-app-bar>
 
     <v-main>
-      <v-spacer></v-spacer>
-      <ComponentCart/>
-      <v-spacer></v-spacer>
+      <v-container align-items: center color="#0A0C1B">
+
+        <CardBusiness/>
+
+      </v-container>      
     </v-main>
   </v-app>
 </template>
@@ -30,13 +32,14 @@
 <script>
 // import HelloWorld from './components/HelloWorld';
 //import TodoList from './components/TodoList.vue';
-import ComponentCart from './components/ComponentCart.vue';
+import CardBusiness from './components/CardBusiness.vue';
+//import ComponentCart from './components/ComponentCart.vue';
 
 export default {
   name: 'App',
 
   components: {
-    ComponentCart,
+    CardBusiness,
   },
 
   data: () => ({
