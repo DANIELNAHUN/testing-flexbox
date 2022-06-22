@@ -20,11 +20,11 @@
     </v-app-bar>
 
     <v-main>
-      <v-container align-items: center color="#0A0C1B">
-
-        <CardBusiness/>
-
-      </v-container>      
+      <v-container>
+        <div class="d-flex justify-center py-3"><ComponentCart/></div>
+        <div class="d-flex justify-center py-3"><CardBusiness/></div>
+        <div class="d-flex justify-center py-3"><ThreeCards/></div>
+      </v-container>
     </v-main>
   </v-app>
 </template>
@@ -33,13 +33,16 @@
 // import HelloWorld from './components/HelloWorld';
 //import TodoList from './components/TodoList.vue';
 import CardBusiness from './components/CardBusiness.vue';
-//import ComponentCart from './components/ComponentCart.vue';
+import ComponentCart from './components/ComponentCart.vue';
+import ThreeCards from './components/ThreeCards.vue';
 
 export default {
   name: 'App',
 
   components: {
     CardBusiness,
+    ComponentCart,
+    ThreeCards,
   },
 
   data: () => ({

@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <div class="d-flex">
         <v-row justify="space-around">
             <v-card
             class="justify-md-center"
@@ -21,14 +21,14 @@
                         icon
                         text
                         >
-                            <v-icon >mdi-music</v-icon> 
-                        </v-btn>               
+                            <v-icon >mdi-music</v-icon>
+                        </v-btn>
                         <div>
                             <div class="font-weight-bold">Anual Plan</div>
                             <div>$59.99/year</div>
                         </div>
                     </div>
-                    <div><v-btn color="primary" text class="text-none text-decoration-underline font-weight-bold">Change</v-btn></div> 
+                    <div><v-btn color="primary" text class="text-none text-decoration-underline font-weight-bold">Change</v-btn></div>
                 </div>
             </v-card-text>
             <v-card-actions>
@@ -38,13 +38,13 @@
             </v-card-actions>
             <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn color="grey" text class="text-none">Cancel Order</v-btn>
+                <v-btn color="grey" text class=" caption text-none">Cancel Order</v-btn>
                 <v-spacer></v-spacer>
             </v-card-actions>
-            
+
             </v-card>
         </v-row>
-    </v-container>
+    </div>
 </template>
 <script>
     export default {

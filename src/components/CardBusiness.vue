@@ -1,6 +1,5 @@
 <template>
-    <v-container>
-        <v-row no-gutters>
+        <div class="d-flex">
             <v-card
             max-width="400px"
             max-height="350px"
@@ -30,17 +29,14 @@
                     </v-row>
                 </div>
             </v-card>
-            <v-col>
+            <div>
                 <v-img
                 max-width="505px"
-                max-height="100%" 
+                max-height="100%"
                 src="http://treelogic.com/es/assets/images/business-intelligence-1-1280x853.jpg">
                 </v-img>
-            </v-col>            
-
-
-        </v-row>
-    </v-container>    
+            </div>
+        </div>
 </template>
 <script>
     export default {
