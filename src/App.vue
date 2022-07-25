@@ -1,14 +1,9 @@
 <template>
-  <v-app style="background : #0A0C1B">
-    <v-app-bar
-      app
-      color="purple"
-      dark
-      clipped-left
-    >
-    <v-spacer></v-spacer>
-    <h3 class="text-center">MI PRIMER PROYECTO</h3>
-    <v-spacer></v-spacer>
+  <v-app style="background: #0a0c1b">
+    <v-app-bar app color="purple" dark clipped-left>
+      <v-spacer></v-spacer>
+      <h3 class="text-center">My first Project Vue Cli</h3>
+      <v-spacer></v-spacer>
       <v-btn
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
         target="_blank"
@@ -21,9 +16,10 @@
 
     <v-main>
       <v-container>
-        <div class="d-flex justify-center py-3"><ComponentCart/></div>
-        <div class="d-flex justify-center py-3"><CardBusiness/></div>
-        <div class="d-flex justify-center py-3"><ThreeCards/></div>
+        <div class="d-flex justify-center py-3"><ComponentCart /></div>
+        <div class="d-flex justify-center py-3"><CardBusiness /></div>
+        <div class="d-flex justify-center py-3"><ThreeCards /></div>
+        <div class="d-flex justify-center py-3"><TodoList /></div>
       </v-container>
     </v-main>
   </v-app>
@@ -31,18 +27,19 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld';
-//import TodoList from './components/TodoList.vue';
-import CardBusiness from './components/CardBusiness.vue';
-import ComponentCart from './components/ComponentCart.vue';
-import ThreeCards from './components/ThreeCards.vue';
+import CardBusiness from "./components/CardBusiness.vue";
+import ComponentCart from "./components/ComponentCart.vue";
+import ThreeCards from "./components/ThreeCards.vue";
+import TodoList from './components/TodoList.vue';
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     CardBusiness,
     ComponentCart,
     ThreeCards,
+    TodoList,
   },
 
   data: () => ({
