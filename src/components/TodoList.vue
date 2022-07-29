@@ -1,21 +1,17 @@
 <template>
   <div>
     <v-form v-model="valid">
-      <v-container>
-        <v-row>
-          <v-col cols="12" md="4">
-            <v-text-field
-              v-model="todoNew.text"
-              :rules="nameRules"
-              :counter="10"
-              label="First name"
-              required
-              outlined
-            ></v-text-field>
-            <v-btn @click="addTodoItem" color="primary"> Agregar </v-btn>
-          </v-col>
-        </v-row>
-      </v-container>
+      <div>
+        <v-text-field
+          v-model="todoNew.text"
+          :rules="nameRules"
+          :counter="10"
+          label="First name"
+          required
+          outlined
+        ></v-text-field>
+        <v-btn @click="addTodoItem" color="primary"> Agregar </v-btn><br />
+      </div>
     </v-form>
 
     <v-card class="mx-auto" max-width="500">
