@@ -19,7 +19,6 @@
         <div class="d-flex justify-center py-3"><ComponentCart /></div>
         <div class="d-flex justify-center py-3"><CardBusiness /></div>
         <div class="d-flex justify-center py-3"><ThreeCards /></div>
-        <div class="d-flex justify-center py-3"><TodoList /></div>
       </v-container>
     </v-main>
   </v-app>
@@ -30,7 +29,6 @@
 import CardBusiness from "./components/CardBusiness.vue";
 import ComponentCart from "./components/ComponentCart.vue";
 import ThreeCards from "./components/ThreeCards.vue";
-import TodoList from './components/TodoList.vue';
 
 export default {
   name: "App",
@@ -39,7 +37,6 @@ export default {
     CardBusiness,
     ComponentCart,
     ThreeCards,
-    TodoList,
   },
 
   data: () => ({
