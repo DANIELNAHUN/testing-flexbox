@@ -17,7 +17,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld';
 import CardBusiness from "./components/CardBusiness.vue";
 import ComponentCart from "./components/ComponentCart.vue";
 import ThreeCards from "./components/ThreeCards.vue";
